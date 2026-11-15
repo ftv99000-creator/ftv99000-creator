@@ -1,85 +1,123 @@
 <div align="center">
 
 # Mehdi Moussaid
-### Étudiant Ingénieur IA & Data · 5ème année IA/Data Analyst à l'EMSI
-📍 Casablanca, Maroc
+### Ingénieur IA & Data en formation · Computer Vision · Data Engineering
 
-Je conçois des systèmes de vision par ordinateur et d'analyse de données appliqués au sport — du tracking de joueurs en temps réel à l'analyse tactique automatisée.
+📍 Casablanca, Maroc · 🎓 5ème année à l'EMSI · 🔎 À la recherche d'un stage en IA / Data
 
-[LinkedIn](#) · [Email](mailto:moussaidmehdi3@gmail.com)
+Je conçois des systèmes de vision par ordinateur et d'analyse de données — du tracking de joueurs par caméra à l'analyse tactique automatisée, en passant par des pipelines de données en production.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mehdi_Moussaid-0A66C2?logo=linkedin&logoColor=white)](#)
+[![Email](https://img.shields.io/badge/Email-moussaidmehdi3@gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:moussaidmehdi3@gmail.com)
 
 </div>
 
 ---
 
-## À propos de moi
+## 👋 À propos
 
-- Étudiant en 5ème année IA/Data Analyst à l'**EMSI** (École Marocaine des Sciences de l'Ingénieur, membre de Honoris United Universities)
-- En stage chez **Qalqul**, sur un projet de vision par ordinateur appliqué au football
-- Spécialisé dans les pipelines de détection, tracking et analyse tactique à partir de caméras intelligentes (sans capteurs IoT portés)
-- Rigoureux, curieux, intéressé par les opportunités en IA/ML, computer vision et data engineering
+- 🎓 Étudiant en 5ème année **IA / Science des Données** à l'**EMSI** (École Marocaine des Sciences de l'Ingénieur)
+- ⚽ En stage PFA chez **Qalqul** : analyse de matchs de football par vision par ordinateur, sans capteurs portés
+- 🔧 Solides bases en Machine/Deep Learning, avec une expérience concrète en automatisation de flux de données
+- 🎯 Je cherche des opportunités autour de l'**IA/ML, la computer vision et la data engineering**
 
 ---
 
-## Projet phare
+## ⭐ Projet phare — Tactical Match Analyzer
 
-| Projet | Ce qu'il démontre | Technologies |
+> Plateforme d'analyse de matchs de football à partir de caméras intelligentes.
+
+**[→ Voir le dépôt](https://github.com/ftv99000-creator/tactical_match_analyzer)**
+
+- **Détection & tracking** des joueurs, du ballon et des arbitres (YOLO, ByteTrack), avec correction des identités après occlusion
+- **Homographie** pour projeter les positions sur le terrain, puis calcul de **distance et de vitesse** des joueurs
+- **Attribution des équipes** par clustering K-means sur la couleur des maillots, stabilisée par vote majoritaire
+- **Analyse tactique** : formations, réseaux de passes, heatmaps
+- **Dashboard web** FastAPI ; code packagé, testé (pytest) et piloté par configuration YAML
+
+`Python` `YOLO` `ByteTrack` `OpenCV` `Kalman Filter` `FastAPI` `scikit-learn`
+
+---
+
+## 🧪 Autres projets
+
+| Projet | Description | Stack |
 |---|---|---|
-| **[Tactical Match Analyzer](https://github.com/ftv99000-creator/tactical_match_analyzer)** | Pipeline complet de vision par ordinateur pour le football : détection et tracking de joueurs/ballon/arbitres, correction des identités (occlusions), homographie et calcul de vitesse, attribution d'équipe par clustering K-means sur la couleur du maillot, détection d'événements tactiques (formations, réseau de passes, heatmaps), le tout exposé via un dashboard web | Python, YOLO, ByteTrack, OpenCV, Kalman Filter, FastAPI |
+| **RAG multimodal agentique** | Extraction texte/images d'un PDF, embeddings CLIP, indexation vectorielle, agent ReAct avec outil de retrieval | CLIP, ChromaDB, FAISS, LangGraph |
+| **Plateforme Big Data de scraping de presse** | Architecture de collecte, stockage et analyse d'articles de presse (projet EMSI IADATA) | Spark, Python |
+| **Deep Learning avec PyTorch** | MLP, CNN, RNN/LSTM/GRU : implémentation, expériences comparatives et analyse critique | PyTorch |
+| **Exploration de données automobiles** | Analyse descriptive interactive et prédiction de la consommation | Streamlit, Random Forest |
 
 ---
 
-## Expérience
+## 💼 Expérience
 
-**Stagiaire Data Analyst / IA — Qalqul** *(en cours)*
-Développement d'un pipeline de vision par ordinateur pour l'analyse de matchs de football (détection, tracking, analyse tactique).
+**Stagiaire IA / Computer Vision — Qalqul** · 2026 *(en cours)*
+Conception d'un pipeline complet d'analyse de matchs de football : détection, tracking, homographie, analyse tactique et dashboard web.
+
+**Stagiaire Automatisation & Qualification de Données — Groupe Le Matin** · Juillet 2025
+Pipeline automatisé de qualification et de classification de données sous **n8n** (hébergé sous **Docker**), avec scripts **JavaScript** de nettoyage et de structuration d'une base de **2 604 entrées**, et synchronisation vers **Google Sheets** : réduction importante du traitement manuel.
 
 **Freelance — Développement & Data**
-Projets web (HTML, CSS, JavaScript, Symfony), mini-applications de gestion, requêtes SQL Server, automatisation de workflows avec n8n, projets de classification et traitement de données.
-
-**Stagiaire Informatique — Le Matin**
-Développement de solutions de gestion et d'automatisation des données, workflows n8n pour le traitement et la classification de données, manipulation de bases SQL Server.
+Projets web (HTML/CSS/JS, Symfony), applications de gestion, requêtes SQL Server, workflows n8n.
 
 ---
 
-## Formation
+## 🎓 Formation
 
-- **5ème année IA/Data Analyst** — EMSI, École Marocaine des Sciences de l'Ingénieur
-- **Baccalauréat général, option Sciences Physiques** (2022) — Lycée Al Baida
-
-**Certifications (Coursera)** : Python, SQL, Machine Learning, analyse de données, visualisation de données
+- **Cycle d'Ingénieur IA / Data Analyst, 5ème année** — EMSI, Casablanca *(en cours)*
+- **Baccalauréat, option Sciences Physiques** (2021–2022) — Lycée Al Baida
 
 ---
 
-## Boîte à outils technique
+## 🛠️ Boîte à outils
 
-**Computer Vision & IA**
-`Python` `YOLO` `ByteTrack` `OpenCV` `Kalman Filter` `Ultralytics` `Machine Learning`
+**IA & Computer Vision**
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+`YOLO` `ByteTrack` `CLIP` `LangGraph`
+
+**Data**
+![Spark](https://img.shields.io/badge/Spark-E25A1C?logo=apachespark&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black)
+`Pandas` `NumPy` `SQL Server` `ChromaDB` `FAISS`
 
 **Backend & Web**
-`FastAPI` `PHP/Symfony` `REST APIs` `React` `HTML/CSS/JS`
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![Symfony](https://img.shields.io/badge/Symfony-000000?logo=symfony&logoColor=white)
+`PHP` `JavaScript` `HTML/CSS` `Streamlit`
 
-**Data & Outils**
-`NumPy` `Pandas` `SQL Server` `Power BI` `Excel` `n8n` `Git` `pytest`
+**Outils**
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+`n8n` `Jupyter` `pytest`
 
-**Langues**
-`Arabe` `Français` `Anglais`
-
----
-
-## Ce qui compte pour moi
-
-- Des pipelines robustes, testés unitairement, et debuggés méthodiquement
-- Une architecture claire (package Python structuré, CLI pilotée par YAML)
-- Des résultats traçables et une documentation utile (rapport de stage PFA en cours)
-- Des systèmes qui passent du prototype de recherche à la démo présentable
+**Langues** : Arabe (langue maternelle) · Français (avancé) · Anglais (courant)
 
 ---
 
-## En cours d'amélioration
+## 🧭 Ma façon de travailler
 
-- Finalisation de l'entraînement du modèle 4 classes (ballon, gardien, joueur, arbitre) sur dataset fusionné
-- Module de métriques tactiques : homographie, distance et vitesse des joueurs
-- Rapport de stage PFA détaillé (LaTeX, format long)
+- Des pipelines **robustes**, testés et débogués méthodiquement
+- Une **architecture claire** : package Python structuré, CLI pilotée par YAML
+- Des résultats **traçables** et une documentation utile
+- Du prototype de recherche à la **démo présentable**
+
+---
+
+## 🚧 En cours
+
+- [ ] Entraînement du modèle à 4 classes (ballon, gardien, joueur, arbitre) sur un dataset fusionné
+- [ ] Module de métriques tactiques (homographie, distance, vitesse)
+- [ ] Rapport de stage PFA détaillé (LaTeX)
+
+---
+
+<div align="center">
+
+💬 Une idée, un projet, une opportunité de stage ? [Écrivez-moi](mailto:moussaidmehdi3@gmail.com)
 
 </div>
